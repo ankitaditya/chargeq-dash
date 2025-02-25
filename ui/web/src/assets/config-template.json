@@ -1,0 +1,15 @@
+{
+  "uiServer": {
+    "host": "localhost",
+    "port": 8080,
+    "protocol": "ui",
+    "version": "0.0.1",
+    "secure": true,
+    "authentication": {
+      "enabled": true,
+      "type": "protocol-basic-auth",
+      "username": "admin",
+      "password": "admin"
+    }
+  }
+}
